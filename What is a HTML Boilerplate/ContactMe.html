@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8"/>
+		<title>Contact me here</title>
+	</head>
+
+	<body>
+		<h1>My contact detail</h1>
+
+		<p>My fictionnal adress</p>
+
+		<p>0650990220</p>
+
+		<p><strong>arzad.aboubacar@gmail.com</strong></p>
+
+		<hr>
+
+		<form method="post" action="mailto:arzad.aboubacar@gmail.com" enctype="text/plain">
+			<fieldset>
+				<legend>Informations :</legend>
+				<p>
+					<label for="yourName">Your Name : </label>
+					<input type="text" id="yourName" name="yourName" placeholder="Your name" /> 
+				</p>
+
+				<p>
+					<label for="emailAdress">Email adress : </label>
+					<input type="email" id="emailAdress" name="emailAdress" placeholder="Your email">
+				</p>
+
+				<p>
+					<label for="passwordBtn"> Password :</label>
+					<input type="password" name="passwordBtn" id="passwordBtn" placeholder="Your password">
+				</p>
+
+				<p>
+					<label for="otherInfos">Other informations : </label>
+					<textarea name="otherInfos" rows="9" cols="19">
+						Type your infos here !
+					</textarea>
+
+				</p>
+
+				<p>
+					<label for="agreement">Do you want receive our emails ?</label>
+					<label for="yes"> Yes : 
+						<input type="checkbox" name="agreement" id="yes"/>
+					</label>
+				</p>
+
+				
+				<input type="submit"/>
+			</fieldset>
+		</form>
+
+	</body>
+</html>
